@@ -115,8 +115,9 @@
 
      <section id="contact" class="wrapper">
          <h2 class="sec-title">お問い合わせ</h2>
-       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="onLoad()"></iframe>
+       
              <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfrnLQiuIZO0C_zvNDBOwCzGy7TERwarcch7Rf3HBWZdDbajA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+                
                  <label>名前</label>
                  <input type="text" name="entry.1847144212" placeholder="名前" required>
                  
@@ -128,7 +129,25 @@
                  <textarea name="entry.1020720289" rows="5" cols="100" placeholder="お問い合わせ内容" required></textarea>
                 <input type="submit" value="送信する">
              </form>
-        <p id="success" style="display: none">送信が完了しました。お問い合わせ、ありがとうございました。</p>
+             <p id="success" style="display: none">送信が完了しました。お問い合わせ、ありがとうございました。</p>
+            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+                crossorigin="anonymous">
+                </script>
+            <script type="text/javascript">
+            var submitted = false;
+            function onLoad() {
+                    $('form')[0].reset();
+                    if (submitted) {
+                        $('#success').show();
+                    } else {
+                        $('#success').hide();
+                    }
+                }
+            </script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                onload="onLoad();">
+            </iframe>
+
      </section>
     </main>
   </body>
