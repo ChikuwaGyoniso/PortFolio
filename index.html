@@ -115,23 +115,20 @@
 
      <section id="contact" class="wrapper">
          <h2 class="sec-title">お問い合わせ</h2>
-
-             <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfrnLQiuIZO0C_zvNDBOwCzGy7TERwarcch7Rf3HBWZdDbajA/formResponse" method="post">
-                 <label class="name-input">
-                 名前：<input type="text" name="entry.1847144212" placeholder="名前" required>
-                 </label>
-                 <label class="email-input">
-                メールアドレス：<input type="email" name="entry.1060411928" placeholder="メールアドレス" required>
-                </label>
-                <label class="subject-input">
-                件名：<input type="text" name="entry.887045168" placeholder="件名" required>
-                </label>
-                <label class="acsess-contents">
-                お問い合わせ内容：<textarea name="entry.1020720289" rows="5" cols="100" placeholder="お問い合わせ内容" required></textarea>
-                </label>
-                <input type="submit" name="submit" value="送信する">
+       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="onLoad()"></iframe>
+             <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfrnLQiuIZO0C_zvNDBOwCzGy7TERwarcch7Rf3HBWZdDbajA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+                 <label>名前</label>
+                 <input type="text" name="entry.1847144212" placeholder="名前" required>
+                 
+                 <label>メールアドレス</label>
+                 <input type="email" name="entry.1060411928" placeholder="メールアドレス" required>
+                <label>件名</label>
+                <input type="text" name="entry.887045168" placeholder="件名" required>
+                <label>お問い合わせ内容</label>
+                 <textarea name="entry.1020720289" rows="5" cols="100" placeholder="お問い合わせ内容" required></textarea>
+                <input type="submit" value="送信する">
              </form>
-
+        <p id="success" style="display: none">送信が完了しました。お問い合わせ、ありがとうございました。</p>
      </section>
     </main>
   </body>
