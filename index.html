@@ -4,6 +4,9 @@
       <title>Portfolio</title>
       <link rel="stylesheet" href="css/design.css">
       <link rel="shorcut icon" href="img/favicon.ico">
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+                    crossorigin="anonymous">
+      </script>
   </head>
   <body>
       <header id="header">
@@ -129,21 +132,9 @@
                  <textarea name="entry.1020720289" rows="5" cols="100" placeholder="お問い合わせ内容" required></textarea>
                 <input type="submit" value="送信する">
              </form>
-             <p id="success" style="display: none">送信が完了しました。お問い合わせ、ありがとうございました。</p>
-            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-                crossorigin="anonymous">
-                </script>
-            <script type="text/javascript">
-            var submitted = false;
-            function onLoad() {
-                    $('form')[0].reset();
-                    if (submitted) {
-                        $('#success').show();
-                    } else {
-                        $('#success').hide();
-                    }
-                }
-            </script>
+             <p id="success" style="display: none" class="success-comment">送信が完了しました。お問い合わせ、ありがとうございました。</p>
+
+            <script src="js/success.js"></script>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
                 onload="onLoad();">
             </iframe>
