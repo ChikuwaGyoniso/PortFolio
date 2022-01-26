@@ -10,9 +10,9 @@
   </head>
   <body>
       <header id="header">
-          <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Chikugo Portfolio"</a></h1>
+          <h1 class="site-title">Chikugo Portfolio</h1>
           <nav>
-              <ul>
+              <ul class="link-list">
                   <li><a href="#about">自己紹介</a></li>
                   <li><a href="#works">制作物</a></li>
                   <li><a href="#skils">スキル</a></li>
@@ -40,13 +40,13 @@
      <section id="works" class="wrapper">
          <h2 class="sec-title">制作物</h2>
          <div class="work-img">
-             <ul>
-                 <li><img src="img/home.jpg" alt="ログイン画面"></li>
-                 <li><img src="img/user-register.jpg" alt="ユーザー登録画面"></li>
-                 <li><img src="img/register.jpg" alt="時間登録画面"></li>
-                 <li><img src="img/db-info.jpg" alt="月の勤務時間表示"</li>
-                 <li><img src="img/csv-screenshot.jpg" alt="CSVファイル画面"</li>
-             </ul>
+             <div class="slider">
+                 <div><img src="img/home.jpg" alt="ログイン画面" class="login-img"></div>
+                 <div><img src="img/user-register.jpg" alt="ユーザー登録画面" class="register-img"></div>
+                 <div><img src="img/register.jpg" alt="時間登録画面" class="timeregister-img"></div>
+                 <div><img src="img/db-info.jpg" alt="月の勤務時間表示" class="view-img"></div>
+                 <div><img src="img/csv-screenshot.jpg" alt="CSVファイル画面" clsss="csv-img"></div>
+             </div>
          </div>
           <p class="works-info">
         JSP/サーブレットの勉強を一通り終えた所で、JSP/サーブレットで何か作れないかと考えた時に、私が会社で使っているタイムシートをWebアプリ化できないかと思い立ち作成しました。私が使っている個人用のタイムシートはExcelでできているのですが、Excelに変換しやすいように登録された労働時間をCSVファイルとして出力できるようになっています。このWebアプリの作成を通じて、HTML/CSSなどのフロント系の言語や、サーバーやデータベース接続に関してのセキュリティについて学ぶことができました。今後は実務でも学んできたことを活かせるようになりたいです。
