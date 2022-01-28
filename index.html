@@ -7,6 +7,11 @@
       <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
                     crossorigin="anonymous">
       </script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slide.js"></script>
   </head>
   <body>
       <header id="header">
@@ -39,13 +44,15 @@
      </section>
      <section id="works" class="wrapper">
          <h2 class="sec-title">制作物</h2>
-             <div class="slider">
+             <div class="sliderArea">
+                 <div class="regular slider">
                  <div><img src="img/home.jpg" alt="ログイン画面" class="login-img"></div>
                  <div><img src="img/user-register.jpg" alt="ユーザー登録画面" class="register-img"></div>
                  <div><img src="img/register.jpg" alt="時間登録画面" class="timeregister-img"></div>
                  <div><img src="img/db-info.jpg" alt="月の勤務時間表示" class="view-img"></div>
                  <div><img src="img/csv-screenshot.jpg" alt="CSVファイル画面" class="csv-img"></div>
-             </div>
+                 </div>
+              </div>
           <p class="works-info">
         JSP/サーブレットの勉強を一通り終えた所で、JSP/サーブレットで何か作れないかと考えた時に、私が会社で使っているタイムシートをWebアプリ化できないかと思い立ち作成しました。私が使っている個人用のタイムシートはExcelでできているのですが、Excelに変換しやすいように登録された労働時間をCSVファイルとして出力できるようになっています。このWebアプリの作成を通じて、HTML/CSSなどのフロント系の言語や、サーバーやデータベース接続に関してのセキュリティについて学ぶことができました。今後は実務でも学んできたことを活かせるようになりたいです。
           </p>
