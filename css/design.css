@@ -1,6 +1,16 @@
+body {
+  margin: 0px;
+}
 h1.site-title{
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 3rem;
+    color: #3aeeee;
+}
+.name{
+  font-size: 23px;
+}
+.light-prof{
+  font-size: 18px;
 }
 /*時系列*/
 .timeline{
@@ -37,9 +47,11 @@ h1.site-title{
     border-radius: 100%;
   }
 }
-/*スライドショー*/
+/*タイトルリンク*/
+
 .link-list {
   text-align: right;
+  font-size: 20px;
 }
 .link-list li{
     display: inline;
@@ -51,6 +63,8 @@ a{
   color : #ff7043;
   text-decoration: none;
 }
+
+/*スライドショー*/
 .login-img{
   width: 600px;
   height: 300px;
