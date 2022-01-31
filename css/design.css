@@ -125,3 +125,18 @@ a{
 .thumb .slick-slide:hover {
   opacity: .7;
 }
+/*スキルテーブル*/
+
+.skil-table td{
+  width: 200px;
+}
+/*フォーム*/
+form{
+  margin:0 auto;
+}
+form dl{
+  display: flex;
+}
+form dl dt{
+  width: 150px;
+}
