@@ -126,10 +126,17 @@ a{
   opacity: .7;
 }
 
-/*キルテーブル*/
-
+/*スキルテーブル*/
+.hoshi-info{
+position: absolute;
+right: 300px;
+}
+.hoshi-info td{
+  font-size: 18px;
+}
 .skil-table td{
   width: 200px;
+  font-size: 18px;
 }
 /*フォーム*/
 form{
