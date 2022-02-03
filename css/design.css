@@ -1,9 +1,16 @@
 body {
   margin: 0px;
 }
+.sec-title{
+  color: #00351d;
+  font-size: 28px;
+  padding: .25em 0 .25em .75em;
+  border-left: 6px solid rgb(6, 184, 0);
+}
+
 h1.site-title{
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #3aeeee;
 }
 .name{
@@ -127,12 +134,11 @@ a{
 }
 
 /*スキルテーブル*/
-.hoshi-info{
-position: absolute;
-right: 300px;
+.hoshi-info ul{
+  list-style-type: none;
 }
-.hoshi-info td{
-  font-size: 18px;
+.skil-table-space{
+  padding: 5px 10px 20px 30px;
 }
 .skil-table td{
   width: 200px;
