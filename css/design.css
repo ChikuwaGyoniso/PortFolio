@@ -135,6 +135,7 @@ a{
 
 /*スキルテーブル*/
 .hoshi-info ul{
+  font-size: 17px;
   list-style-type: none;
 }
 .skil-table-space{
@@ -142,6 +143,9 @@ a{
 }
 .skil-table td{
   width: 200px;
+  font-size: 18px;
+}
+.skil-exp{
   font-size: 18px;
 }
 /*フォーム*/
