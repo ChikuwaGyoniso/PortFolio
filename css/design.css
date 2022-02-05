@@ -7,7 +7,9 @@ body {
   padding: .25em 0 .25em .75em;
   border-left: 6px solid rgb(6, 184, 0);
 }
-
+.sec-title-space{
+  padding: 0px 0px 0px 10px;
+}
 h1.site-title{
     text-align: center;
     font-size: 3.5rem;
@@ -132,21 +134,35 @@ a{
 .thumb .slick-slide:hover {
   opacity: .7;
 }
-
+.works-info-space{
+ padding: 0% 1.5% 0% 1.5%;
+}
+.sub-space{
+  padding: 0% 0% 0% 1.5%;
+}
+.used-language{
+  font-size: 18px;
+}
 /*スキルテーブル*/
 .hoshi-info ul{
   font-size: 17px;
   list-style-type: none;
 }
+.hoshi-info-space{
+  padding: 0px 0px 0px 0px;
+}
 .skil-table-space{
-  padding: 5px 10px 20px 30px;
+  padding: 5px 10px 20px 20px;
 }
 .skil-table td{
   width: 200px;
   font-size: 18px;
 }
 .skil-exp{
-  font-size: 18px;
+  font-size: 16px;
+}
+.skil-exp-space{
+  padding: 0px 0px 0px 2px;
 }
 /*フォーム*/
 form{
