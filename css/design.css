@@ -19,7 +19,7 @@ h1.site-title{
   font-size: 23px;
 }
 .light-prof{
-  font-size: 18px;
+  font-size: 17px;
 }
 /*時系列*/
 .timeline{
@@ -135,7 +135,7 @@ a{
   opacity: .7;
 }
 .works-info-space{
- padding: 0% 1.5% 0% 1.5%;
+ padding: 0px 12px 0px 15px;
 }
 .sub-space{
   padding: 0% 0% 0% 1.5%;
@@ -143,13 +143,44 @@ a{
 .used-language{
   font-size: 18px;
 }
+.app-link{
+  text-align: center;
+}
+.app-front{
+  display: inline-block;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  background: #668ad6;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.app-front:active{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+.github{
+  display: inline-block;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  background: #000000;
+  color: #FFF;
+  border-bottom: solid 4px #cecece;
+  border-radius: 3px;
+}
+.github:active{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
 /*スキルテーブル*/
 .hoshi-info ul{
   font-size: 17px;
   list-style-type: none;
 }
 .hoshi-info-space{
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 12px;
 }
 .skil-table-space{
   padding: 5px 10px 20px 20px;
