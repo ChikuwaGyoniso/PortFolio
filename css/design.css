@@ -179,9 +179,6 @@ a{
   font-size: 17px;
   list-style-type: none;
 }
-.hoshi-info-space{
-  padding: 0px 0px 0px 12px;
-}
 .skil-table-space{
   padding: 5px 10px 20px 20px;
 }
@@ -194,6 +191,46 @@ a{
 }
 .skil-exp-space{
   padding: 0px 0px 0px 2px;
+}
+.rate{
+  position: relative;
+  display: inline-block;
+}
+.rate::before{
+  content:"★★★★★";
+  color: #ccc;
+}
+.rate1::before,
+.rate1::after,
+.rate2::before,
+.rate2::after,
+.rate3::before,
+.rate3::after,
+.rate4::before,
+.rate4::after,
+.rate5::before,
+.rate5::after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FFA500;
+  overflow: hidden;
+  height: 24px;
+}
+.rate .rate1::after{
+  content: "★";
+}
+.rate .rate2::after{
+   content: "★★";
+}
+.rate .rate3::after{
+  content: "★★★";
+}
+.rate .rate4::after{
+  content: "★★★★";
+}
+.rate .rate5::after{
+  content: "★★★★★";
 }
 /*フォーム*/
 form{
