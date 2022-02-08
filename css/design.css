@@ -175,6 +175,7 @@ a{
   border-bottom: none;
 }
 /*スキルテーブル*/
+
 .hoshi-info ul{
   font-size: 17px;
   list-style-type: none;
@@ -231,6 +232,54 @@ a{
 }
 .rate .rate5::after{
   content: "★★★★★";
+}
+
+.excel-rate::before,
+.excel-rate::after,
+.vba-rate::before,
+.vba-rate::after,
+.java-rate::before,
+.java-rate::after,
+.sql-rate::before,
+.sql-rate::after,
+.html-rate::before,
+.html-rate::after,
+.css-rate::before,
+.css-rate::after,
+.js-rate::before,
+.js-rate::after,
+.jq-rate::before,
+.jq-rate::after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FFA500;
+  overflow: hidden;
+  height: 24px;
+}
+.rate .excel-rate::after{
+  content: "★★★★★";
+}
+.rate .vba-rate::after{
+  content: "★★★★";
+}
+.rate .java-rate::after{
+  content: "★★★";
+}
+.rate .sql-rate::after{
+  content: "★★";
+}
+.rate .html-rate::after{
+  content: "★★";
+}
+.rate .css-rate::after{
+  content: "★★";
+}
+.rate .js-rate::after{
+  content: "★";
+}
+.rate .jq-rate::after{
+  content: "★";
 }
 /*フォーム*/
 form{
