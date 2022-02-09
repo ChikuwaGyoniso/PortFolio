@@ -180,9 +180,7 @@ a{
   font-size: 17px;
   list-style-type: none;
 }
-.skil-table-space{
-  padding: 5px 10px 20px 20px;
-}
+
 .skil-table td{
   width: 200px;
   font-size: 18px;
@@ -190,9 +188,7 @@ a{
 .skil-exp{
   font-size: 16px;
 }
-.skil-exp-space{
-  padding: 0px 0px 0px 2px;
-}
+
 .rate{
   position: relative;
   display: inline-block;
@@ -290,4 +286,7 @@ form dl{
 }
 form dl dt{
   width: 150px;
+}
+form dt{
+  font-size: 17px;
 }
