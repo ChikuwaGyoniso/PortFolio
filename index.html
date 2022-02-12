@@ -27,9 +27,7 @@
         </header>
     <main>
      <section id="about" class="wrapper">
-         <div class="sec-title-space">
          <h2 class="sec-title">自己紹介</h2>
-         </div>
          <img src="img/profimg.jpg" class="profimg">
          <p class="name">筑後　圭太</p>
          <p class="light-prof">18歳で上京し、某IT企業に派遣社員として登録。主にExcelを使用した業務の中で、独学で学んだVBAでツールを作成し活用してきました。そのことがきっかけで、コードを書いて思い通りに動かすプログラミングが楽しいと感じるようになりました。しかし、今の職場ではVBA以外の言語には触れることが出来ず、同じようなExcelを用いた業務では成長もできないと感じました。そこでプログラミングを中心とした仕事をしようと考え、IT業界の転職を目指すことにしました。
@@ -97,9 +95,8 @@
          </ul>
      </section>
      <section id="works" class="wrapper">
-        <div class="sec-title-space">
+
          <h2 class="sec-title">制作物</h2>
-         </div>
              <div class="sliderArea">
                  <div class="regular slider">
                  <div><img src="img/home.jpg" alt="ログイン画面" class="login-img"></div>
@@ -129,7 +126,6 @@
         </div>
      </section>
      <section id="skils" class="wrapper">
-      <div class="sec-title-space">
       <h2 class="sec-title">スキルセット</h2>
             <!-- ☆はCSSで塗りつぶす-->
 
@@ -204,31 +200,22 @@
      </section>
 
      <section id="contact" class="wrapper">
-        <div class="sec-title-space">
+
          <h2 class="sec-title">お問い合わせ</h2>
-        </div>
+
              <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfrnLQiuIZO0C_zvNDBOwCzGy7TERwarcch7Rf3HBWZdDbajA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
                 <dl>
-                    <dt>名前</dt>
-                     <dd><input type="text" name="entry.1847144212" placeholder="名前" required></dd>
-                </dl>
-                <dl>
-                    <dt>メールアドレス</dt>
+                    <dt><label for="name">名前</label></dt>
+                    <dd><input type="text" name="entry.1847144212" placeholder="名前" required></dd>
+                    <dt><label for="email">メールアドレス</label></dt>
                     <dd><input type="email" name="entry.1060411928" placeholder="メールアドレス" required></dd>
-                </dl>
-                <dl>
-                    <dt>件名</dt>
+                    <dt><label for="subject">件名</label></dt>
                     <dd><input type="text" name="entry.887045168" placeholder="件名" required></dd>
-                </dl>
-                <dl>
-                    <dt>お問い合わせ内容</dt>
+                    <dt><label for="content">お問い合わせ内容</label></dt>
                     <dd><textarea name="entry.1020720289" rows="5" cols="100" placeholder="お問い合わせ内容" required></textarea></dd>
-                </dl>
-                <dl>
-                  <dt>
-                    <div class="reset-button"><input type="reset" value="リセット"></div>
                     <div class="submit-button"><input type="submit" value="送信する"></div>
-                  </dt>
+                    <div class="reset-button"><input type="reset" value="リセット"></div>
+
                 </dl>
              </form>
              <p id="success" style="display: none" class="success-comment">送信が完了しました。お問い合わせ、ありがとうございました。</p>
@@ -237,7 +224,6 @@
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
                 onload="onLoad();">
             </iframe>
-
      </section>
     </main>
   </body>

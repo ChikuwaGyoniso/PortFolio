@@ -300,10 +300,10 @@ a{
 }
 #contact .reset-button input {
   width: 200px;
-  background-color: #24292e;
+  background-color: #eb0000;
   color: #fff;
   padding: 15px 0;
-  border: solid 1px #24292e;
+  border: solid 1px #000000;
 }
 #contact .reset-button input:hover {
   background: #fff;
@@ -314,12 +314,15 @@ a{
 }
 #contact .submit-button input {
   width: 200px;
-  background-color: #24292e;
+  background-color: #0075eb;
   color: #fff;
   padding: 15px 0;
-  border: solid 1px #24292e;
+  border: solid 1px #000000;
 }
 #contact .submit-button input:hover {
   background: #fff;
   color: #24292e;
 }
+  #contact dl {
+    flex-direction: column;
+  }
