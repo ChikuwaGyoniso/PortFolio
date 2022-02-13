@@ -2,8 +2,18 @@ body{
   margin: 0;
 }
 .wrapper {
-  margin: 0 auto 0px auto;
+  max-width: 1025px;
+  margin: 0 auto 130px auto;
   font-size: 1rem;
+  padding: 0 4%;
+}
+#header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 270px;
+  margin: 0 auto;
   padding: 0 4%;
 }
 .sec-title{
@@ -136,6 +146,9 @@ a{
 .thumb .slick-slide:hover {
   opacity: .7;
 }
+.works-info{
+  font-size: 17px;
+}
 .used-language{
   font-size: 18px;
 }
@@ -182,7 +195,7 @@ a{
   font-size: 18px;
 }
 .skil-exp{
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .rate{
@@ -280,6 +293,7 @@ a{
   margin-bottom: 20px;
 }
 #contact dt {
+  font-size: 18px;
   width: 15%;
 }
 #contact dd {
@@ -294,20 +308,6 @@ a{
 }
 #contact dd textarea {
   height: 10rem;
-}
-#contact .reset-button {
-  text-align: center;
-}
-#contact .reset-button input {
-  width: 200px;
-  background-color: #eb0000;
-  color: #fff;
-  padding: 15px 0;
-  border: solid 1px #000000;
-}
-#contact .reset-button input:hover {
-  background: #fff;
-  color: #24292e;
 }
 #contact .submit-button {
   text-align: center;
@@ -326,3 +326,10 @@ a{
   #contact dl {
     flex-direction: column;
   }
+#footer {
+  background-color: #535353;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
