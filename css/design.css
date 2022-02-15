@@ -1,4 +1,5 @@
 body{
+  background-color: rgba(219, 253, 242, 0.76);
   margin: 0;
 }
 .wrapper {
@@ -17,15 +18,17 @@ body{
   padding: 0 4%;
 }
 .sec-title{
+  font-family: Ms Gothic;
   color: #00351d;
   font-size: 28px;
   padding: .25em 0 .25em .75em;
   border-left: 6px solid rgb(6, 184, 0);
 }
 h1.site-title{
-    text-align: center;
-    font-size: 3.5rem;
+    font-family: Yu Mincho;
+    font-size: 3.8rem;
     color: #3aeeee;
+    -webkit-text-stroke: 1px #000;
 }
 .name{
   font-size: 23px;
@@ -189,8 +192,11 @@ a{
   font-size: 17px;
   list-style-type: none;
 }
-
+.skil-table{
+  background-color: #fff;
+}
 .skil-table td{
+  background-color: #fff;
   width: 200px;
   font-size: 18px;
 }
