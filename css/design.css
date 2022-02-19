@@ -8,7 +8,7 @@ body{
   padding: 0 4%;
 }
 #header {
-  max-width: 960px;
+  max-width: 1025px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +23,7 @@ body{
   padding: .25em 0 .25em .75em;
   border-left: 6px solid rgb(6, 184, 0);
 }
-h1.site-title{
+h2.site-title{
     font-family: Yu Mincho;
     font-size: 4.5rem;
     color: #3aeeee;
