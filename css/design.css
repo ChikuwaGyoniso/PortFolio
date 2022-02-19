@@ -187,9 +187,8 @@ a{
 }
 /*スキルテーブル*/
 
-.hoshi-info ul{
-  font-size: 17px;
-  list-style-type: none;
+.hoshi-info td {
+  width: 200px0
 }
 .skil-table{
   background-color: #fff;
