@@ -1,16 +1,23 @@
 body{
+  background-color: rgb(233, 255, 197);
   margin: 0;
+}
+.site-space{
+  background-color: #fff;
+  max-width: 1025px;
+  margin: 100px auto 100px auto;
+  padding: 0 4%;
+filter: drop-shadow(20px 15px 10px rgba(0,0,0,0.6));
 }
 .wrapper {
   max-width: 1025px;
-  margin: 0 auto 130px auto;
-  font-size: 1rem;
+  margin: 100px auto 80px auto;
+  font-size: 0.9rem;
   padding: 0 4%;
 }
 #header {
   max-width: 1025px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 270px;
   margin: 0 auto;
@@ -205,6 +212,7 @@ a{
 .rate{
   position: relative;
   display: inline-block;
+  margin: 5px auto 5px auto;
 }
 .rate::before{
   content:"★★★★★";
@@ -298,7 +306,7 @@ a{
 }
 #contact dt {
   font-size: 18px;
-  width: 15%;
+  width: 16%;
 }
 #contact dd {
   width: 85%;
@@ -322,6 +330,7 @@ a{
   color: #fff;
   padding: 15px 0;
   border: solid 1px #000000;
+  margin: 10px auto 80px auto;
 }
 #contact .submit-button input:hover {
   background: #fff;
