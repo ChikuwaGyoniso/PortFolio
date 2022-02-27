@@ -5,3 +5,10 @@ $(document).on('ready', function () {
         dots: true,
     });
 });
+$(document).on('ready', function () {
+    $(".vba").slick({
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+    });
+});
